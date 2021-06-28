@@ -22,7 +22,7 @@ public class Banker {
         String fileIn;
         String[] s;
 
-        fileIn = "C:\\Users\\Amal\\Desktop\\OS Project Final\\data1.txt";
+        fileIn = " "; // path to data txt file
 
         FileReader fr = new FileReader(fileIn);
         BufferedReader br = new BufferedReader(fr);
